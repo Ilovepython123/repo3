@@ -71,6 +71,18 @@ public class ItemController extends BaseController {
 
 
 
+
+
+
+    public void as(){
+        System.out.println("asd");
+    }
+
+
+
+
+
+
     //将ItemModel转化为ItemVo
     public ItemVo convertItemVoFromItemModel(ItemModel itemModel) {
         if (itemModel == null) {
